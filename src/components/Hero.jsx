@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage2 from '../assets/faisal-removebg.png';
+import profileImage2 from '../assets/faisal.png';
 import { HiDownload, HiMail } from 'react-icons/hi';
 import resumePDF from '../assets/Faisal Iqbal - Frontend UI_UX Engineer-1.pdf';
 
@@ -37,7 +37,7 @@ const Hero = () => {
                   }}
                 />
                 {/* Enhanced glow effect */}
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-600 opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-600 opacity-20 blur-xl transition-opacity duration-500"></div>
               </div>
               
               {/* Floating elements around the image */}
