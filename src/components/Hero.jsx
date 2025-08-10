@@ -1,6 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/faisal.jpeg';
-import profileImage2 from '../assets/Faisal-removebg.png';
+import profileImage2 from '../assets/faisal-removebg.png';
 import { HiDownload, HiMail } from 'react-icons/hi';
 import resumePDF from '../assets/Faisal Iqbal - Frontend UI_UX Engineer-1.pdf';
 

@@ -10,7 +10,7 @@ const Projects = () => {
       description: "Built reusable UI components in React.js, ensuring pixel-perfect Figma implementation. Applied React best practices (hooks, Context API, lazy loading) to improve performance by 25%. Achieved WCAG compliance and internationalization support. Reduced load time by 40%, boosting user satisfaction.",
       image: "🚗",
       technologies: ["React.js", "TypeScript", "Figma", "WCAG", "Internationalization"],
-      liveUrl: "#",
+      liveUrl: "https://checkout-dev.bmwdr.io/build-your-deal/accessories?vin=3MW89CW09S8F23153&dealer-code=65775",
       githubUrl: "#",
       category: "Enterprise",
       company: "Netsol Technologies"
@@ -21,7 +21,7 @@ const Projects = () => {
       description: "Redesigned asset tracking dashboard using React.js, Bootstrap, SCSS, improving completion rates by 25%. Built themeable components for white-label use, cutting dev time by 30%. Implemented responsive design and cross-browser compatibility.",
       image: "📊",
       technologies: ["React.js", "Bootstrap", "SCSS", "Responsive Design", "White-label"],
-      liveUrl: "#",
+      liveUrl: "https://assettiger.arhamsoft.org/",
       githubUrl: "#",
       category: "SaaS",
       company: "Arhamsoft Pvt Ltd"
@@ -99,7 +99,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-3">
+                {/* <div className="flex gap-3">
                   <a
                     href={project.liveUrl}
                     className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded text-sm font-medium transition-colors"
@@ -112,7 +112,7 @@ const Projects = () => {
                   >
                     GitHub
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
@@ -160,7 +160,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 <a
                   href={selectedProject.liveUrl}
                   className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 px-6 rounded font-medium transition-colors"
@@ -173,7 +173,7 @@ const Projects = () => {
                 >
                   View on GitHub
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
